@@ -24,4 +24,4 @@ Mksut aku printah yg kya gni ya dri sc itu 😒
 
 </p>
 <h1 align="center"><img src="https://raw.githubusercontent.com/Al-Vino/Al-Vino/main/giphy%20(1).webp"
-<h1 align="center">★ STATISTIK ★</i></b></h3>
+<h1 align="center">★ SIMONTOX ★</i></b></h3>
