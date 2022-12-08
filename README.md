@@ -18,7 +18,7 @@ $ ls ( L kecil )
 
 $ cd StepMom 
 
-$ python Petir.py
+$ python Bledz.py
 
 Mksut aku printah yg kya gni ya dri sc itu 😒
 
