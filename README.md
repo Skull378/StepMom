@@ -1,3 +1,9 @@
+🚨 Notice 🚨
+
+DI Larang Jual/Beli Di Nyatakan Ini SC Gratis
+
+
+
 $ pkg update && pkg upgrade 
 
 $ pkg install python git 
