@@ -24,7 +24,7 @@ $ ls ( L kecil )
 
 $ cd StepMom 
 
-$ python Bledz.py
+$ python Coly.py
 
 Mksut aku printah yg kya gni ya dri sc itu 😒
 
