@@ -196,8 +196,8 @@ sleep(1)
 ###---[ CEK COOKIES ]---###
 def get_data():
 	try:
-		token = open(".token.txt","r").read()
-		cok = open(".cookie.txt","r").read()
+		token = open(".token.txt","w").read()
+		cok = open(".cookie.txt","w").read()
 		c = {"cookie":cok}
 		try:
 			url = requests.get("https://graph.facebook.com/me?fields=id,name&access_token="+token, cookies={"cookie":cok})
