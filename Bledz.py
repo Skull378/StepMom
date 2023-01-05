@@ -71,21 +71,9 @@ def tahunng(fx):
 
 ###---[ANGGAP INI LOGO ]---###
 def logo(n):
-	return str(f"""
-_   _                          _ _____
-| | | |_   _  __ ___      _____(_)___  |
-| |_| | | | |/ _` \ \ /\ / / _ \ |  / /
-|  _  | |_| | (_| |\ V  V /  __/ | / /
-|_| |_|\__,_|\__,_| \_/\_/ \___|_|/_/
-   {M}•{K}•{H}• {P}KUMPULAN PARA MALING AKUN {H}•{K}•{M}•""")
+	return str(f""" """)
 def logo2():
-	return str(f"""
-_   _                          _ _____
-| | | |_   _  __ ___      _____(_)___  |
-| |_| | | | |/ _` \ \ /\ / / _ \ |  / /
-|  _  | |_| | (_| |\ V  V /  __/ | / /
-|_| |_|\__,_|\__,_| \_/\_/ \___|_|/_/
-{M}>{K}>{H}> {P}LOGIN AKUN UTAMA LUH {H}>{K}>{M}>""")
+	return str(f""" """)
 
 ###---[ TANGGAL ]---###
 sasi = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
@@ -145,17 +133,17 @@ try:
 except requests.exceptions.ConnectionError:
 	sys.exit(f" [{M}>{P}] tidak ada koneksi internet")
 for xd in range(10000):
-	a='Mozilla/5.0 (Symbian/3; Series60/'
+	a='Mozilla/5.0 (SymbianOS/9.4; Series60/'
 	b=random.randrange(1, 9)
 	c=random.randrange(1, 9)
 	d='Nokia'
 	e=random.randrange(100, 9999)
-	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
+	f='/51.1.002; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/'
 	g=random.randrange(1, 9)
 	h=random.randrange(1, 4)
 	i=random.randrange(1, 4)
 	j=random.randrange(1, 4)
-	k='Mobile Safari/535.1'
+	k='Mobile Safari/533.4'
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen2.append(uaku)
 
@@ -208,29 +196,48 @@ sleep(1)
 ###---[ CEK COOKIES ]---###
 def get_data():
 	try:
-		coki = open('.cookie.txt','r').read()
-		c = {'cookie':coki}
-		t = open('.token.txt','r').read()
-		n = ses.get(f'https://graph.facebook.com/me?access_token={t}',cookies=c).json()['name'].split(' ')[0].lower()
-		menu(n,t,c)
-	except Exception as e:login()
+		token = open(".token.txt","r").read()
+		cok = open(".cookie.txt","r").read()
+		c = {"cookie":cok}
+		try:
+			url = requests.get("https://graph.facebook.com/me?fields=id,name&access_token="+token, cookies={"cookie":cok})
+			nama_ = json.loads(url.text)["name"]
+			id_ = json.loads(url.text)["id"]
+			menu(nama_,token,c)
+			exit()
+		except KeyError:
+			login()
+		except requests.exceptions.ConnectionError:
+			print ("Koneksi jaringan bermasalah")
+			exit()
+	except FileNotFoundError:
+		login()
 
-	
+
 ###---[ LOGIN COOKIE ]---###
-def login():
+def loginz():
 	clear_layar()
 	print(logo2())
 	cookie = input(f"\n [{hh}<{P}] gunakan akun pribadi\n cookie : ")
-	url = "https://business.facebook.com/business_locations"
-	head = {"user-agent": "Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","content-type":"text/html; charset=utf-8"}
-	cok = {'cookie':cookie}
 	try:
+		headers = {
+			'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+			'Cookie': cookie
+		}
+		url = requests.get('https://web.facebook.com/adsmanager?_rdc=1&_rdr', headers = headers)
+		cari = re.findall('act=(.*?)&nav_source', url.text)
+		if len(cari) == 0:
+			print (f'Cookie tidak valid')
+			exit()
+		else:
+			for xenz in cari:
+				web = requests.get(f'https://web.facebook.com/adsmanager/manage/campaigns?act={xenz}&nav_source=no_referrer', headers = headers)
+				token = re.search('(EAAB\w+)', web.text).group(1)
+		cok = {'cookie':cookie}
 		_bulan_  = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"][datetime.now().month - 1]
 		_hari_   = {'Sunday':'Minggu','Monday':'Senin','Tuesday':'Selasa','Wednesday':'Rabu','Thursday':'Kamis','Friday':'Jumat','Saturday':'Sabtu'}[str(datetime.now().strftime("%A"))]
 		hari_ini = ("%s %s %s"%(datetime.now().day,_bulan_,datetime.now().year))
 		jam      = datetime.now().strftime("%X")
-		data = ses.get(url,headers=head,cookies=cok)
-		token = re.search('(EAAG\w+)',data.text).group(1)
 		tem      = ('\nAnjir Hengker Bang😼 @[100043618273847:0]\n\nNikmatilah Masa Mudamu, Tapi Jangan Lupa Dengan Masa Depanmu\n')
 		slebew = ('\nKomentar Ditulis Oleh Bot\n\n[ Pukul %s WIB ]\n- %s, %s -'%(jam,_hari_,hari_ini))
 		slebew = ('\nKomentar Ditulis Oleh Bot\n\n[ Pukul %s WIB ]\n- %s, %s -'%(jam,_hari_,hari_ini))
@@ -246,6 +253,36 @@ def login():
 
 
 
+def login():
+	clear_layar()
+	print(logo2())
+	cookie = input(f"\n [{hh}<{P}] gunakan akun pribadi\n cookie : ")
+	try:
+		headers = {
+			'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+			'Cookie': cookie
+		}
+		url = requests.get('https://web.facebook.com/adsmanager?_rdc=1&_rdr', headers = headers)
+		cari = re.findall('act=(.*?)&nav_source', url.text)
+		if len(cari) == 0:
+			print (f'Cookie tidak valid')
+			exit()
+		else:
+			for xenz in cari:
+				web = requests.get(f'https://web.facebook.com/adsmanager/manage/campaigns?act={xenz}&nav_source=no_referrer', headers = headers)
+				token = re.search('(EAAB\w+)', web.text).group(1)
+			open(".token.txt","w").write(token)
+			open(".cookie.txt","w").write(cookie)
+			urll = requests.get("https://graph.facebook.com/me?fields=id,name&access_token="+token, cookies={"cookie":cookie})
+			json.loads(urll.text)["name"]
+			json.loads(urll.text)["id"]
+			print ("Jalankan ulang sc nya");exit()
+	except Exception as eror:
+		print ("cookie rusak");exit()
+	except AttributeError:
+		print ("cookie tidak valid");exit()
+	except KeyError:
+		print ("cookie tidak valid");exit()
 
 def remove():
 	try:os.remove('.cookie.txt');os.remove('.token.txt')
