@@ -79,7 +79,7 @@ def cex():
 		cok = open('.cok.txt','r').read()
 		cex.append(token)
 		try:
-			gerap = requests.get('https://graph.facebook.com/me?fields=id&access_token='+tokenefb[0], cookies={'cookie':cok})
+			gerap = requests.get('https://mbasic.facebook.com/me?fields=id&access_token='+tokenefb[0], cookies={'cookie':cok})
 			nteng = json.loads(gerap.text)['id']
 			menu()
 		except KeyError:
