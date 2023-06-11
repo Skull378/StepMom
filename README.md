@@ -1,6 +1,5 @@
 🚨 Notice 🚨
 
-DI Larang Jual/Beli Di Nyatakan Ini SC Gratis
 
 
 
@@ -24,7 +23,7 @@ $ ls ( L kecil )
 
 $ cd StepMom 
 
-$ python Coly.py
+$ python MBF.py
 
 Mksut aku printah yg kya gni ya dri sc itu 😒
 
