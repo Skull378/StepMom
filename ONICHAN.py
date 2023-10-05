@@ -67,15 +67,9 @@ prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
  rr = random.randint
  rc = random.choice
- u1 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-A405FN Build/RP1A.{str(rr(111111,210000))}.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,51000))}.{str(rr(75,150))} Mobile Safari/537.36"
- u2 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-J610G Build/PPR1.{str(rr(111111,210000))}.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,51000))}.{str(rr(75,150))} Mobile Safari/537.36"
- u3 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-G610M Build/PKQ1.{str(rr(111111,210000))}.018; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,51000))}.{str(rr(75,150))} Mobile Safari/537.36"
- u4 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; CPH2109 Build/RKQ1.{str(rr(111111,210000))}.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,51000))}.{str(rr(75,150))} Mobile Safari/537.36"
- u5 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-A127F BuildSP1A.210812.016.{str(rr(111111,210000))}.001; vw) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,51000))}.{str(rr(75,150))} Mobile Safari/537.36"
- u6 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-J330G Build/PPR1.180610.011.{str(rr(111111,210000))}.001;wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,51000))}.{str(rr(75,150))} Mobile Safari/537.36"
- u7 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))} SAMSUNG-SGH-I337 Build/LRX22C) {str(rr(111111,210000))}.001;wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 Chrome/{str(rr(73,150))}.0.{str(rr(5500,51000))}.{str(rr(75,150))} Mobile Safari/537.36"
- u8 = f"Mozilla/5.0 (Linux; Android  {str(rr(4,12))} SAMSUNG SM-N1000V 4G Build/LRX21V) {str(rr(111111,210000))}.001;wv) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/{str(rr(73,150))}.0.{str(rr(5500,51000))}.{str(rr(75,150))} Mobile Safari/537.36"
- UaMainn = random.choice([u1, u2, u3, u4, u5, u6, u7, u8])
+ u1 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; Pixel 2 Build/OPM2.171026.006.G1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(100,450))}.0.0.{str(rr(1,10))}.{str(rr(100,250))} Mobile Safari/537.36[FBAN/EMA;FBLC/fr_FR;FBAV/{str(rr(100,1000))}.0.0.{str(rr(1,50))}.{str(rr(10000,90000))};]"
+ u2 = f"Dalvik/2.1.0 (Windows NT {str(rr(4,12))}; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(100,450))}.0.0.{str(rr(1,10))}.{str(rr(100,250))} Mobile Safari/537.36 [FBAN/EMA;FBLC/en_US;FBAV/{str(rr(100,1000))}.0.0.{str(rr(1,50))}.{str(rr(10000,90000))};]"
+ UaMainn = random.choice([u1, u2])
  ugen.append(UaMainn)
 
  kios =random.choice(['Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-A426B/A426BXXU2BUF2) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/21.0 Chrome/110.0.5481.154 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 13; SM-G991B Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.196 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 8.0.0; SM-G570M Build/R16NW; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.210 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/422.0.0.26.76;]','Mozilla/5.0 (Linux; Android 12; SM-A025G Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.76 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/419.0.0.37.71;]','Mozilla/5.0 (Linux; Android 10; moto e(7) plus Build/QPZS30.30-Q3-38-69-12; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.196 Mobile Safari/537.36 Instagram 290.0.0.13.76 Android (29/10; 280dpi; 720x1473; motorola; moto e(7) plus; guam; qcom; en_GB; 491057553)','Mozilla/5.0 (iPhone; CPU iPhone OS 15_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Safari/605.1.15 GNews iOS/5.79.203','Mozilla/5.0 (Linux; Android 9; SM-A530F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.210 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/422.0.0.26.76;]','Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [LinkedInApp]/9.28.1299.4','Mozilla/5.0 (Linux; Android 10; TECNO B1g) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36'])
@@ -142,7 +136,7 @@ def banner():
 def login123():
 	os.system('clear')
 	banner()
-	cetak(panel(f"[[bold cyan]01[bold white]] Login Menggunakan Cookie              [[bold cyan]03[bold white]] Crack Instagram \n[[bold cyan]02[bold white]] Menu Crack Tanpa Login                [[bold cyan]04[bold white]] Cek Hasil Crack ",width=90,title=f"[bold green]Menu Bot",padding=(0,2),style=f"bold white"))
+	cetak(panel(f"[[bold cyan]01[bold white]] Login Menggunakan Cookie              [[bold cyan]03[bold white]] Crack Instagram \n[[bold cyan]02[bold white]] Menu Crack Tanpa Login                [[bold cyan]04[bold white]] CekHasil Crack ",width=90,title=f"[bold green]Menu Bot",padding=(0,2),style=f"bold white"))
 	bryn = input(f' [+] Pilih Menu : ')
 	if bryn in ['1','01']:
 		login_lagi334()
