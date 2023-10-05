@@ -1,10 +1,3 @@
-# TERAKHIR UPDATE SMBF
-# SABTU 16-09-2023
-# CYXIEON-XR
-
-# note ini sc free ya klo udh enak jangan di premiumin
-# note yang udah tau jangan di ubah - ubah  hargai :-)
-
 #----------[ IMPORT-MODULE ]----------#
 import os
 import re
@@ -169,8 +162,8 @@ def login_cokies():
 #----------[ BAGIAN-MENU ]----------#            
 def menu():
         try:
-            token = open('.cyxieontoken.txt','r').read()
-            cok = open('.cyxieoncokies.txt','r').read()
+            token = open('.cyxieontoken.txt','w').read()
+            cok = open('.cyxieoncokies.txt','w').read()
             tokene.append(token)
             try:
                 baz_ganteng = requests.get('https://graph.facebook.com/me?fields=id,name&access_token='+tokene[0], cookies={'cookie':cok})
